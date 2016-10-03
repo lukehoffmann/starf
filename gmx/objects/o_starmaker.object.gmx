@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>numberOfStars</string>
+            <string>maximumNumberOfStars</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -77,7 +77,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>8</string>
+            <string>3</string>
           </argument>
         </arguments>
       </action>
@@ -97,7 +97,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>numberOfStars</string>
+            <string>maximumNumberOfStars</string>
           </argument>
         </arguments>
       </action>
@@ -135,7 +135,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>sqr(sqr(sqr(random(1))))</string>
+            <string>minimumSpeed + power(random(1), 15) * (maximumSpeed - minimumSpeed)</string>
           </argument>
         </arguments>
       </action>
